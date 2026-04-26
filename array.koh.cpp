@@ -18,6 +18,7 @@ class order{
   }
   # hello po!
 cout << "akin ka na lang <<endl;
+*\ eto
 }
 
 int main(){
