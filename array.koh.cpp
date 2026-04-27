@@ -19,6 +19,14 @@ class order{
   # hello po!
 cout << "akin ka na lang <<endl;
 *\ eto  dhiq
+  string getName(){return name};
+  string getDetails(){return details};
+  int getPriority(){return priority};
+  
+  void display(){
+    cout <<name << "-" << details << endl;
+  };
+  #di ko na negegets ang github AHAAHA, parang nadami ang mga branch
 }
 
 int main(){
