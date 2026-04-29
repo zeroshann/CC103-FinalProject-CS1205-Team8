@@ -1,6 +1,7 @@
 **QuickServe: Fast Food Order Line Management System**
 
 **CC 103_Data Structures and Algorithms**
+
 Computer Science|2nd Semester, AY 2025-2026
 Project system team8-"ARRAY KO"
 
