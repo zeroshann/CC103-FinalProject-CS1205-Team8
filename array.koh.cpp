@@ -1,13 +1,11 @@
 #include <iostream>
 #include <stack>
 #include <queue>
-#include <vector>
 using namespace std;
 
-class order{
-  private:
-  string name;
-  string details;
+struct Order{
+  string customerName;
+  string orderName;
   int priority;
 
   public:
@@ -17,6 +15,8 @@ class order{
     priority = p;
   }
   # hello po!
+cout << "akin ka na lang <<endl;
+*\ eto  dhiq
   string getName(){return name};
   string getDetails(){return details};
   int getPriority(){return priority};
