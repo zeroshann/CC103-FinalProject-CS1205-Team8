@@ -1,13 +1,11 @@
 #include <iostream>
 #include <stack>
 #include <queue>
-#include <vector>
 using namespace std;
 
-class order{
-  private:
-  string name;
-  string details;
+struct Order{
+  string customerName;
+  string orderName;
   int priority;
 
   public:
