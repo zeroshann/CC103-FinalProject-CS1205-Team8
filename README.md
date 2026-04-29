@@ -11,7 +11,7 @@ TEAM MEMBERS
 |--- | --- | --- |
 | 25-07559      | Carro, John Kristian Shine D.| Main Programmer, Debugger    |
 | 25-08087      | Cebrero, Kelsey Leigh M.     | Programmer, Tester, Debugger |
-| 25-04394      | Sudara, Marvin T.            | Lead Presentor, Programmer   |
+| 25-04394      | Sudara, Marvin T.            | Lead Presentor, Programmer, Documentation|
 
                                                   
 QuickServe: A fast food order line management system for
