@@ -1,11 +1,13 @@
 #include <iostream>
 #include <stack>
 #include <queue>
+#include <vector>
 using namespace std;
 
-struct Order {
-  string customerName;
-  string orderName;
+class order{
+  private:
+  string name;
+  string details;
   int priority;
 
   public:
@@ -21,9 +23,16 @@ struct Order {
   
   void display(){
     cout <<name << "-" << details << endl;
-  };
+  }
   #di ko na negegets ang github AHAAHA, parang nadami ang mga branch
-}
+  //  nalilito na ako sa github HAHHAH lala
+
+};
+struct Compare {
+  bool operator()(order a, order b){
+    return a.getPriority() < b.getPriority();
+  }
+};
 
 int main(){
 
