@@ -9,27 +9,27 @@ struct Order{
   int priority;
 
   public:
-  order (string n, string d, int p){
-    name = n;
-    details = d;
+  Order (string cn, string on, int p){
+    customerName = cn;
+    orderName = on;
     priority = p;
   }
   # hello po!
-cout << "akin ka na lang <<endl;
-*\ eto  dhiq
-  string getName(){return name};
-  string getDetails(){return details};
+cout << "akin ka na lang " <<endl;
+//  eto  dhiq 
+  string getCustomerName(){return customerName};
+  string getOrderName(){return orderName};
   int getPriority(){return priority};
   
   void display(){
-    cout <<name << "-" << details << endl;
+    cout <<customerName << "-" << orderName  << endl;
   }
   #di ko na negegets ang github AHAAHA, parang nadami ang mga branch
   //  nalilito na ako sa github HAHHAH lala
 
 };
 struct Compare {
-  bool operator()(order a, order b){
+  bool operator()(Order a, Order b){
     return a.getPriority() < b.getPriority();
   }
 };
