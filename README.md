@@ -1,5 +1,5 @@
 <h1 align = "center" > 
-🍔 QuickServe 🍔 </h1>
+♡୨ৎ🍔｡ᡣ QuickServe ｡ᡣ🍔୨ৎ♡ </h1>
 <h2 align = "center" >  
 *Fast Food Order Line Management System* </h2>
 <h3 align = "center" </h3>
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎓 Course Information
+## ✩₊˚.⋆☾⋆⁺₊✧🎓 Course Information✩₊˚.⋆☾⋆⁺₊✧
 
 |||
 |:---|:---|
@@ -25,7 +25,7 @@
 
 </div>
 
-## 👨‍💻 Meet the Team ✨
+## . ݁₊ 🦢 . ݁˖👨‍💻 Meet the Team ✨. ݁₊ 🦢 . ݁˖
 
 | 🪪 SR-Code | 👤 Name | ⚙️ Role |
 |:---:|:---|:---|
