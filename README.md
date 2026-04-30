@@ -1,12 +1,12 @@
-<p align = "center" 
-  
-  **QuickServe: Fast Food Order Line Management System**
+<div align = "center"  
+<br/>
+  <h1>  # 🍔 QuickServe 🍔 
+    ## Fast Food Order Line Management System </h2>
+<br/>
 
+ <div align = "center"
 
- <p align = "center"
-
-   
-**CC 103_Data Structures and Algorithms**
+<br/>CC 103_Data Structures and Algorithms
 
 Computer Science|2nd Semester, AY 2025-2026
 Project system team8-"ARRAY KO"
@@ -17,7 +17,7 @@ Project system team8-"ARRAY KO"
 |--- | --- | --- |
 | 25-07559      | Carro, John Kristian Shine D.| Main Programmer, Debugger    |
 | 25-08087      | Cebrero, Kelsey Leigh M.     | Programmer, Tester, Debugger |
-| 25-04394      | Sudara, Marin T.            | Lead Presentor, Programmer   | 
+| 25-04394      | Sudara, Marvin T.            | Lead Presentor, Programmer, Documentation  | 
 
 **Problem Description**
 Fast food chains often encounter significant challenges in  managing orders efficiently, particularly during peak hours when demand is high. Orders that are processed at the counter can sometimes lead to inaccurate orders and delays in handling urgent and priority orders such as express meals or special orders (Blankenship, 2025). This problem often results in customer dissatisfaction due to longer wait times. As a result, it may affect the full performance and decreased service quality of the fast food chain.
