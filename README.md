@@ -1,7 +1,8 @@
-<div align = "center"  
-<br/>
-# 🍔 QuickServe 🍔 
-### *Fast Food Order Line Management System*
+<h1 align = "center" > 
+🍔 QuickServe 🍔 </h1>
+
+<h2 align = "center" >  
+*Fast Food Order Line Management System* </h2>
   
 <br/>
   
@@ -27,7 +28,7 @@
 
 ---
 
-<div align="center">
+</div>
 
 ## 👨‍💻 Meet the Team ✨
 
@@ -45,7 +46,7 @@
 
 Fast food chains face significant challenges managing orders efficiently — especially during *peak hours*. Problems like inaccurate orders, delays in handling urgent requests, and long wait times lead to *customer dissatisfaction* and reduced service quality.
 
-*QuickServe* is a *C++ console-based application* designed to solve these problems by helping restaurant staff manage orders in an organized, efficient, and prioritized manner.
+**QuickServe** is a *C++ console-based application* designed to solve these problems by helping restaurant staff manage orders in an organized, efficient, and prioritized manner.
 
 <br/>
 
