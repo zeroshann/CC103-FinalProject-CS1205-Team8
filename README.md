@@ -1,15 +1,11 @@
 <h1 align = "center" > 
 🍔 QuickServe 🍔 </h1>
-
 <h2 align = "center" >  
 *Fast Food Order Line Management System* </h2>
   
+<br/>  
+ > **"Serving smarter, faster, and in the right order."**
 <br/>
-  
- > *"Serving smarter, faster, and in the right order."*
-
-<br/>
-....
 </div>
 
 ---
