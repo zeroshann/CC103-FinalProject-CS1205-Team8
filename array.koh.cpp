@@ -1,18 +1,35 @@
 #include <iostream>
 #include <queue>
-#include <stack>
 using namespace std;
 
-// Order structure
-struct Order {
-    string customerName;
-    string orderName;
-    int priority; // 1 = Normal, 2 = Priority
+struct Order{
+  string customerName;
+  string orderName;
+  int priority;
+
+  public:
+  Order (string cn, string on, int p){
+    customerName = cn;
+    orderName = on;
+    priority = p;
+  }
+  string getCustomerName(){return customerName};
+  string getOrderName(){return orderName};
+  int getPriority(){return priority};
+  
+  void display(){
+    cout <<customerName << "-" << orderName  << endl;
+  }
 
     // For priority queue (higher priority first)
     bool operator<(const Order& other) const {
         return priority < other.priority;
     }
+};
+struct Compare {
+  bool operator()(Order a, Order b){
+    return a.getPriority() < b.getPriority();
+  }
 };
 
 // Data Structures
