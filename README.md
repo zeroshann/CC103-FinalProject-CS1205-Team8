@@ -2,8 +2,6 @@
 🍔 QuickServe 🍔 </h1>
 <h2 align = "center" >  
 *Fast Food Order Line Management System* </h2>
-  
-<br/>  
 <h3 align = "center" </h3>
   "Serving smarter, faster, and in the right order."
 <br/>
