@@ -1,7 +1,7 @@
 <div align = "center"  
 <br/>
-  <h1>  # 🍔 QuickServe 🍔 
-    ## Fast Food Order Line Management System </h2>
+  #🍔 QuickServe 🍔 
+  ###Fast Food Order Line Management System
 <br/>
 
  <div align = "center"
