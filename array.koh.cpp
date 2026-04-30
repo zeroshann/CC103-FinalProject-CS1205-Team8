@@ -14,9 +14,6 @@ struct Order{
     orderName = on;
     priority = p;
   }
-  # hello po!
-cout << "akin ka na lang " <<endl;
-//  eto  dhiq 
   string getCustomerName(){return customerName};
   string getOrderName(){return orderName};
   int getPriority(){return priority};
@@ -24,8 +21,6 @@ cout << "akin ka na lang " <<endl;
   void display(){
     cout <<customerName << "-" << orderName  << endl;
   }
-  #di ko na negegets ang github AHAAHA, parang nadami ang mga branch
-  //  nalilito na ako sa github HAHHAH lala
 
 };
 struct Compare {
