@@ -1,31 +1,51 @@
-<p align = "center" 
-  
-  **QuickServe: Fast Food Order Line Management System**
+<h1 align = "center" > 
+♡୨ৎ🍔｡ᡣ QuickServe ｡ᡣ🍔୨ৎ♡ </h1>
+<h2 align = "center" >  
+*Fast Food Order Line Management System* </h2>
+<h3 align = "center" </h3>
+  "Serving smarter, faster, and in the right order."
+<br/>
+</div>
 
+---
 
- <p align = "center"
+## ✩₊˚.⋆☾⋆⁺₊✧🎓 Course Information✩₊˚.⋆☾⋆⁺₊✧
 
-   
-**CC 103_Data Structures and Algorithms**
+|||
+|:---|:---|
+| 📘 *Course* | CC 103 – Data Structures and Algorithms |
+| 🏫 *Department* | Computer Science Department |
+| 📅 *Semester* | 2nd Semester, AY 2025–2026 |
+| 👥 *Team Number* | Team 8 |
+| 🏷️ *Team Name* | Array-ko |
 
-Computer Science|2nd Semester, AY 2025-2026
-Project system team8-"ARRAY KO"
+</div>
 
-**TEAM MEMBERS**
+---
 
-| SR CODE       | NAME                         | ROLE                         |
-|--- | --- | --- |
-| 25-07559      | Carro, John Kristian Shine D.| Main Programmer, Debugger    |
-| 25-08087      | Cebrero, Kelsey Leigh M.     | Programmer, Tester, Debugger |
-| 25-04394      | Sudara, Marin T.            | Lead Presentor, Programmer   | 
+</div>
 
-**Problem Description**
-Fast food chains often encounter significant challenges in  managing orders efficiently, particularly during peak hours when demand is high. Orders that are processed at the counter can sometimes lead to inaccurate orders and delays in handling urgent and priority orders such as express meals or special orders (Blankenship, 2025). This problem often results in customer dissatisfaction due to longer wait times. As a result, it may affect the full performance and decreased service quality of the fast food chain.
+## . ݁₊ 🦢 . ݁˖👨‍💻 Meet the Team ✨. ݁₊ 🦢 . ݁˖
 
+| 🪪 SR-Code | 👤 Name | ⚙️ Role |
+|:---:|:---|:---|
+| 25-07559 | Carro, John Kristian Shine D. | 🖥️ Main Programmer · 🐛 Debugger |
+| 25-08087 | Cebrero, Kelsey Leigh M. | 📝 Documentation · 🧪 Tester · 🖥️  Programmer  |
+| 25-04394 | Sudara, Marvin T. | 🎤 Presentation Leader · 🖥️ Programmer · 📝 Documentation |
 
-**QuickServe: Fast Food Order Line Management System**
-is a C++ console based application developed to help fast food restaurants manage order efficiently.
-The system allows staff to add new orders, prioritize urgent orders, process them in the correct sequence, and track completed orders.
+</div>
+
+---
+
+## 📖 About the Project
+
+Fast food chains face significant challenges managing orders efficiently — especially during **peak hours**. Problems like inaccurate orders, delays in handling urgent requests, and long wait times lead to **customer dissatisfaction** and reduced service quality (Blankenship, 2025).
+
+**QuickServe** is a *C++ console-based application* designed to solve these problems by helping restaurant staff manage orders in an organized, efficient, and prioritized manner.
+
+<br/>
+
+<div align="center">
 
 
 **the programs uses:** 🫠
