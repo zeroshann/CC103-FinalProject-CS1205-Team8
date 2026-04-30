@@ -4,7 +4,8 @@
 *Fast Food Order Line Management System* </h2>
   
 <br/>  
- > **"Serving smarter, faster, and in the right order."**
+<p align = "center" </p>
+  **"Serving smarter, faster, and in the right order."**
 <br/>
 </div>
 
