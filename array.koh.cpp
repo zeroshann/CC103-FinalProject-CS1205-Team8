@@ -22,7 +22,6 @@ struct Order{
     cout <<customerName << "-" << orderName  << endl;
   }
 
-    // For priority queue (higher priority first)
     bool operator<(const Order& other) const {
         return priority < other.priority;
     }
@@ -33,12 +32,10 @@ struct Compare {
   }
 };
 
-// Data Structures
 queue<Order> normalQueue;
 priority_queue<Order> priorityQueueOrders;
 stack<Order> undoStack;
 
-// Add Order
 void addOrder() {
     Order o;
     cout << "Enter Customer Name: ";
@@ -60,7 +57,6 @@ void addOrder() {
     cout << "Order added successfully!\n";
 }
 
-// Process Order
 void processOrder() {
     if (!priorityQueueOrders.empty()) {
         Order o = priorityQueueOrders.top();
@@ -82,8 +78,6 @@ void processOrder() {
         cout << "No orders to process.\n";
     }
 }
-
-// Undo Last Action
 void undoOrder() {
     if (undoStack.empty()) {
         cout << "Nothing to undo.\n";
@@ -102,7 +96,6 @@ void undoOrder() {
     cout << "Undo successful! Order returned.\n";
 }
 
-// Display Orders
 void displayOrders() {
     cout << "\n--- PRIORITY ORDERS ---\n";
     priority_queue<Order> tempPQ = priorityQueueOrders;
