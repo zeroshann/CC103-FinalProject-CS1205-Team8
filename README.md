@@ -20,8 +20,10 @@ Fast food chains often encounter significant challenges in managing orders effic
 - Inaccurate orders and delays in handling urgent and priority orders such as express meals or special orders
 - Customer dissatisfaction due to longer wait times
 - Decreased overall service quality and staff performance
+  
 
-**QuickServe ** - addresses these issues by providing a structured, console-based order management system that enforces fair queuing, elevates priority orders automatically, and allows staff to undo accidental actions.
+  **QuickServe ** - addresses these issues by providing a structured, console-based order management system that enforces fair queuing, elevates priority orders automatically, and allows staff to undo accidental actions.
+  
 ---
 
 ## 🗂️ Data Structures Used
