@@ -19,6 +19,7 @@ Fast food chains face significant challenges managing orders efficiently — esp
 
 <div align="center">
 
+---
 
 ##the programs uses: 🫠
 
@@ -26,22 +27,23 @@ Fast food chains face significant challenges managing orders efficiently — esp
 - *Priority Queue* → for urgent orders  
 - *Stack (LIFO)* → for undo functionality  
 
+---
+
 ## 🎯 Features
 
 ### ➕ Add Order
-- Input customer name and order
-- Assign priority level
+Input customer name and order
+Assign priority level
 
 ### 🍟 Process Order
-- Priority orders are served first
-- Normal orders follow FIFO
+Priority orders are served first
+Normal orders follow FIFO
 
 ### ↩️ Undo Last Order
-- Restore last processed order using stack
+Restore last processed order using stack
 
 ### 📋 Display Orders
-- View all pending orders (priority + normal)
-
+View all pending orders (priority + normal)
 
 ---
 
