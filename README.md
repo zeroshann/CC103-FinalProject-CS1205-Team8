@@ -28,6 +28,13 @@ Fast food chains often encounter significant challenges in managing orders effic
 
 ## 🗂️ Data Structures Used
 
+| Data Structure | Purpose |
+|----------------|--------|
+| Queue | Stores normal orders |
+| Priority Queue | Handles urgent orders first |
+| Stack | Undo functionality |
+
+
 ### 1. queue<Order> — Normal Order Queue
 
 - *What it is:* A linear structure following *FIFO* (First-In, First-Out) — first customer in, first customer served
