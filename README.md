@@ -11,22 +11,16 @@
 
 ## ❓ Problem Description
 
-Fast food chains face significant challenges managing orders efficiently — especially during peak hours. Problems like inaccurate orders, delays in handling urgent requests, and long wait times lead to customer dissatisfaction and reduced service quality (Blankenship, 2025).
-
-QuickServe is a C++ console-based application designed to solve these problems by helping restaurant staff manage orders in an organized, efficient, and prioritized manner.
 
 
 ### What problem are we solving?
 
-Fast food restaurants handle a high volume of orders that must be served *efficiently and fairly*. Without a structured system:
+Fast food chains often encounter significant challenges in managing orders efficiently, particularly during peak hours when demand is high (Blankenship, 2025). This problem often results to:
+-Inaccurate orders and delays in handling urgent and priority orders such as express meals or special orders
+-Customer dissatisfaction due to longer wait times
+-Decreased overall service quality and staff performance
 
-- Orders get processed out of sequence — unfair to early customers
-- Urgent orders have no way to skip ahead of regular ones
-- Accidental processing has no recovery — the order is simply lost
-- Staff have no clear view of what orders are still pending
-
-This system solves all of the above using three purpose-built C++ data structures in a single menu-driven console application.
-
+**QuickServe** addresses these issues by providing a structured, console-based order management system that enforces fair queuing, elevates priority orders automatically, and allows staff to undo accidental actions.
 ---
 
 ## 🗂️ Data Structures Used
@@ -35,33 +29,33 @@ This system solves all of the above using three purpose-built C++ data structure
 
 - *What it is:* A linear structure following *FIFO* (First-In, First-Out) — first customer in, first customer served
 - *Why we used it:* Ensures normal orders are processed in the exact sequence they were placed, with O(1) push and pop operations
-
+```cpp
 queue<Order> normalQueue;
 normalQueue.push(order);  // joins the line
 normalQueue.pop();        // served and removed
-
+```
 ---
 
 ### 2. priority_queue<Order> — Priority Order Queue
 
 - *What it is:* A container built on a *max-heap* — the element with the highest priority value is always at the top, regardless of insertion order
 - *Why we used it:* Automatically elevates urgent orders above normal ones using the overloaded operator<, with O(log n) insertion and O(1) top access
-
+```cpp
 bool operator<(const Order& other) const {
     return priority < other.priority; // higher value = served first
 }
-
+```
 ---
 
 ### 3. stack<Order> — Undo Stack
 
 - *What it is:* A linear structure following *LIFO* (Last-In, First-Out) — the most recently added item is always retrieved first
 - *Why we used it:* Perfect for undo — every processed order is pushed on, and popping it instantly restores the last action in O(1) time
-
+```cpp
 stack<Order> undoStack;
 undoStack.push(order);  // log processed order
 undoStack.pop();        // restore it back to queue
-
+```
 ---
 
 ## ⚙️ Algorithm Explanation
@@ -70,6 +64,7 @@ undoStack.pop();        // restore it back to queue
 - Prompt for Customer Name, Order Name, and Urgency (1 = Normal, 2 = Priority)
 - If urgency is 2 → push to priorityQueueOrders
 - If urgency is 1 → push to normalQueue
+- If order duplicates → prints warning, not added
 
 ### ▶️ processOrder()
 - Check priorityQueueOrders first — if not empty, pop the top order
@@ -144,7 +139,11 @@ undoStack.pop();        // restore it back to queue
 | 25-04394 | Sudara, Marvin T. | 🖥️ Programmer · 📝 Documentation |
 
 ## Acknowledgement
+We would like to sincerely thank our instructor, Ms. Fatima Marie Agdon, MSCS, for her continuous guidance, unwavering support, and meaningful insights that greatly aided us throughout this project.
 
+We are also grateful to our classmates and peers, whose cooperation, encouragement, and collaborative ideas helped us refine and enhance this system.
+
+Finally, we recognize the various learning resources and materials that deepened our understanding of the data structures and programming concepts applied in this project.
 
 
 
