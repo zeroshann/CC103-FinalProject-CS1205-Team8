@@ -17,8 +17,6 @@ Fast food chains face significant challenges managing orders efficiently — esp
 
 <br/>
 
-<div align="center">
-
 ---
 
 ##the programs uses: 🫠
