@@ -11,6 +11,11 @@
 
 ## ❓ Problem Description
 
+Fast food chains face significant challenges managing orders efficiently — especially during peak hours. Problems like inaccurate orders, delays in handling urgent requests, and long wait times lead to customer dissatisfaction and reduced service quality (Blankenship, 2025).
+
+QuickServe is a C++ console-based application designed to solve these problems by helping restaurant staff manage orders in an organized, efficient, and prioritized manner.
+
+
 ### What problem are we solving?
 
 Fast food restaurants handle a high volume of orders that must be served *efficiently and fairly*. Without a structured system:
@@ -135,8 +140,10 @@ undoStack.pop();        // restore it back to queue
 | 🪪 SR-Code | 👤 Name | ⚙️ Role |
 |:---:|:---|:---|
 | 25-07559 | Carro, John Kristian Shine D. | 🖥️ Main Programmer · 🐛 Debugger |
-| 25-08087 | Cebrero, Kelsey Leigh M. | 📝 Documentation · 🧪 Tester · 🖥️  Programmer  |
-| 25-04394 | Sudara, Marvin T. | 🎤 Presentation Leader · 🖥️ Programmer · 📝 Documentation |
+| 25-08087 | Cebrero, Kelsey Leigh M. | 📝 Documentation · 🖥️  Programmer  |
+| 25-04394 | Sudara, Marvin T. | 🖥️ Programmer · 📝 Documentation |
+
+## Acknowledgement
 
 
 
