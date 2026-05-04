@@ -155,7 +155,7 @@ We are also grateful to our classmates and peers, whose cooperation, encourageme
 
 Finally, we recognize the various learning resources and materials that deepened our understanding of the data structures and programming concepts applied in this project.
 
-##References
+## References
 
 Blankenship, A. (2025). 9 Fast-Food Items You’ll Regret Ordering During Busy Hours. inkl.com. https://www.inkl.com/news/9-fast-food-items-you-ll-regret-ordering-during-busy-hours
 
